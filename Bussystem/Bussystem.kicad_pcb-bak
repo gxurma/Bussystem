@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 22)
-    (tracks 0)
+    (tracks 2)
     (zones 0)
     (modules 11)
     (nets 295)
@@ -952,7 +952,7 @@
   )
 
   (module Samtec:SAMTEC_PCIE-098-02-X-D-TH (layer F.Cu) (tedit 60CF7AFE) (tstamp 60CFB15E)
-    (at 66.835 105 270)
+    (at 123.835 105 270)
     (descr "PCI EXPRESS CARD CONNECTOR ,64 PINS.")
     (path /60D29B7F)
     (fp_text reference J5 (at -24.635 -5.65 90) (layer F.SilkS)
@@ -1183,7 +1183,7 @@
   )
 
   (module Samtec:SAMTEC_PCIE-098-02-X-D-TH (layer F.Cu) (tedit 60CF7AFE) (tstamp 60CFD4CF)
-    (at 81.835 105 270)
+    (at 108.835 105 270)
     (descr "PCI EXPRESS CARD CONNECTOR ,64 PINS.")
     (path /60D29B40)
     (fp_text reference J4 (at -24.635 -5.65 90) (layer F.SilkS)
@@ -1414,7 +1414,7 @@
   )
 
   (module Samtec:SAMTEC_PCIE-098-02-X-D-TH (layer F.Cu) (tedit 60CF7AFE) (tstamp 60CFB06E)
-    (at 96.835 105 270)
+    (at 93.835 105 270)
     (descr "PCI EXPRESS CARD CONNECTOR ,64 PINS.")
     (path /60D17DD6)
     (fp_text reference J3 (at -24.635 -5.65 90) (layer F.SilkS)
@@ -1645,7 +1645,7 @@
   )
 
   (module Samtec:SAMTEC_PCIE-098-02-X-D-TH (layer F.Cu) (tedit 60CF7AFE) (tstamp 60CFAFF6)
-    (at 111.835 105 270)
+    (at 78.835 105 270)
     (descr "PCI EXPRESS CARD CONNECTOR ,64 PINS.")
     (path /60CF3AF9)
     (fp_text reference J2 (at -24.635 -5.65 90) (layer F.SilkS)
@@ -1876,7 +1876,7 @@
   )
 
   (module Samtec:SAMTEC_PCIE-098-02-X-D-TH (layer F.Cu) (tedit 60CF7AFE) (tstamp 60CFAF7E)
-    (at 126.835 105 270)
+    (at 63.835 105 270)
     (descr "PCI EXPRESS CARD CONNECTOR ,64 PINS.")
     (path /60CF1FEA)
     (fp_text reference J1 (at -24.635 -5.65 90) (layer F.SilkS)
@@ -2147,7 +2147,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 60CF3D95)
-    (at 135 115)
+    (at 133 115)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /61E412CA)
@@ -2166,8 +2166,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 60CF3D85)
-    (at 135 95)
+  (module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 60D01349)
+    (at 133 95)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /61E403B7)
@@ -2432,7 +2432,7 @@
   )
   (gr_line (start 41.4 80) (end 41.4 76.2) (layer Dwgs.User) (width 0.15))
   (dimension 100 (width 0.15) (layer Dwgs.User)
-    (gr_text "100,000 mm" (at 95 63.7) (layer Dwgs.User)
+    (gr_text "100,000 mm" (at 95 63.7) (layer Dwgs.User) (tstamp 60D00C2D)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 45 75) (xy 45 64.413579)))
@@ -2472,5 +2472,8 @@
   (gr_line (start 53.4 75) (end 53.4 79.35) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 145 75) (end 53.4 75) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 53.4 135) (end 145 135) (layer Edge.Cuts) (width 0.05))
+
+  (segment (start 48.6 80.00128) (end 64.070999 80.00128) (width 0.25) (layer B.Cu) (net 285))
+  (segment (start 64.070999 80.00128) (end 64.070999 80) (width 0.25) (layer B.Cu) (net 285))
 
 )
