@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
-    (tracks 2099)
+    (drawings 16)
+    (tracks 2100)
     (zones 0)
     (modules 13)
     (nets 354)
@@ -76,14 +76,14 @@
     (aux_axis_origin 40 110)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x013fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
       (excludeedgelayer true)
       (linewidth 0.100000)
-      (plotframeref false)
+      (plotframeref true)
       (viasonmask false)
       (mode 1)
       (useauxorigin false)
@@ -3142,6 +3142,9 @@
     )
   )
 
+  (gr_text JLCJLCJLCJLC (at 225 99 90) (layer F.SilkS)
+    (effects (font (size 0.9 0.9) (thickness 0.15)))
+  )
   (dimension 65 (width 0.15) (layer Dwgs.User)
     (gr_text "65,000 mm" (at 234.7 77.5 270) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5289,5 +5292,6 @@
   (segment (start 82.494922 67.19) (end 81.01 67.19) (width 0.38) (layer B.Cu) (net 124))
   (segment (start 68.99 67.19) (end 81.01 67.19) (width 0.75) (layer B.Cu) (net 124))
   (segment (start 68.25 66.19) (end 81.75 66.19) (width 0.75) (layer B.Cu) (net 125))
+  (segment (start 182.006001 103.793999) (end 167.993999 103.793999) (width 0.75) (layer B.Cu) (net 315))
 
 )
