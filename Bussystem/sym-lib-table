@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Bussystem-10x-non-stack-rescue)(type Legacy)(uri "${KIPRJMOD}/Bussystem 10x non stack-rescue.lib")(options "")(descr ""))
+)
